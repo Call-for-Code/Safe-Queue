@@ -1,0 +1,21 @@
+# Environment variables
+# Copy this template to a file called .env and fill in the variables
+
+# CLOUDANT INSTANCE (Required)
+# The values here are assigned as follows:
+# (these come from the Service Credential named "Service credentials-launch1")
+#    CLOUDANT_ID         comes from "host"   Service Credentials SUBDOMAIN ONLY
+#    CLOUDANT_IAM_APIKEY comes from "apikey" Service Credentials exactly as is
+#     
+CLOUDANT_ID=xxxx
+CLOUDANT_IAM_APIKEY=xxxx
+
+# Redis connection for horizontal scaling
+REDIS_URL=rediss://admin:xxxx
+REDIS_BASE64_CA=xxxx
+
+# TWILIO for SMS Texting (Optional)
+# The web-app must have SMS Enabled (in its .env file) if this is used
+TWILIO_ACCOUNTSID=xxxx
+TWILIO_AUTHTOKEN=xxxx
+TWILIO_PHONENUMBER=xxxx
