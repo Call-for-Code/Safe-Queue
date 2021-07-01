@@ -1,4 +1,4 @@
-# Server documentation
+# Safe Queue Server App
 
 ## Contents
 
