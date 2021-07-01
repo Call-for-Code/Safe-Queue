@@ -23,7 +23,7 @@ Note that communication between the web-app and server-app is configured using t
 
 ## Deployment
 
-### Create an `.env` file from `dotenv-template`
+### Create a `.env` file from `dotenv-template`
 
 There are several variables to be set, as described in the template.
 
