@@ -1,0 +1,33 @@
+# Environment variables
+# Copy this template to a file called .env and fill in the variables
+
+
+# Safe Queue "About" URL (Optional)
+# REACT_APP_ABOUTURL=https://xxxx
+
+# Safe Queue URL to this site (Required), for use in generated QR Codes
+REACT_APP_SAFEQUEUE_URL=www.xxxx.xxx
+
+# Safe Queue Back-end (Required)
+# SECURE should be 1 or 0, to indicate use of http/ws or https/wss
+REACT_APP_SERVERDOMAIN=xxxxx.appdomain.cloud
+REACT_APP_SERVERSECURE=0
+
+# Watson Text-To-Speech (Optional)
+REACT_APP_WATSONTTS_URL=https://xxxx.../synthesize
+REACT_APP_WATSONTTS_APIKEY=apikey:xxxx
+
+# HERE Mapping (Required)
+REACT_APP_HERE_APIKEY=xxxx
+
+# HERE reverse geocoder (Optional)
+REACT_APP_HEREGEOCODER_URL=https://xxxx.../reversegeocode.json
+
+# Enable SMS Messaging [must be 1 or 0] (Required)
+# If enabled, the server-app must also have SMS enabled
+REACT_APP_ENABLE_SMS=1
+
+# Development GPS Location (Optional)
+# Forces a fake location for testing - remember to restart the local server (e.g. npm start) if you change this!
+# COMMENT OUT FOR PRODUCTION !!!!
+# REACT_APP_FAKEGPSLOCATION=33.847369,-118.399536
