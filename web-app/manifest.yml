@@ -1,0 +1,7 @@
+applications:
+- name: Safe-Queue-Web 
+  path: build/
+  memory: 256M
+  instances: 1
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+
