@@ -103,40 +103,19 @@ He leaves his car and goes in, shows his QR Code to the employee who scans it (a
 <p align="center">
 <img src="./images/qr_example.jpg" width="75%" title="Safe Queue Printed Example">
 </p>
-<b>4. A BUSINESS CREATES A SAFE QUEUE</b>:  A manager (or employee) of a business opens up the Safe Queue App, taps on "MANAGER" and sees an empty list. He taps on Add and enters the business name, an optional logo, and an address (though this is pre-populated by the App from the GPS location).  He then taps on Save, which publishes this for consumers to find (as per CONSUMER use case above).
-<p align="center">
-<img src="./images/screenshots/screenshot_manage_create_device.png" width="25%" title="Safe Queue Home screen">
-</p>
+<b>4. A BUSINESS CREATES A SAFE QUEUE</b>:  A manager (or employee) of a business opens up the Safe Queue mobile web-app, taps on "MANAGER" and sees an empty list. He taps on Add and enters the business name, an optional logo, and an address (though this is pre-populated by the App from the GPS location). He can then select from a wide variety of options he wants for this queue (inlcuding Standee support, Pick-Up support, wait time estimation, close-enough radius, custom messages, etc.). The user interface is simplified to only include those options selected.  He then taps on Save, which publishes this for consumers to find (as per CONSUMER use case above).  In addition, it creates a shortened URL and QR Code for the Safe Queue.
 He then see a list, which includes what he created. He taps on it to manage it (see BUSINESS MANAGE use case below).  
 Note that a business can have as many safe queues at their location as they want, each managed by one or more employees.
-
-
+<p>
+      
 <b>5. A BUSINESS MANAGES ENTRY TO A STORE</b>:
 After having create a safe queue (see use case above), an employee at an entrance to the store uses the app to control entry.
-<p align="center">
-<table style="width:100%; border:0;">
-<colgroup>
-      <col span="1" style="width: 20%;">
-      <col span="1" style="width: 30%;">
-      <col span="1" style="width: 20%;">
-      <col span="1" style="width: 30%;">
-   </colgroup>
-   <tbody>
-<tr>
-<th>
-The employee sees the safe queue. To let someone in, he taps on the "Notify Next Customer". When the customer just notified arrives, he taps on "Scan Customer" which opens the scanner.
-</th>
-<th>
-<img src="./images/screenshots/screenshot_manage_device.png" title="Safe Queue management">
-</th>
-<th>
-Scanning the QR-Code, the app verifies he is next in safe queue, which removes him from the line and notifies others they have moved up (with an audio alert).
-</th>
-<th>
-<img src="./images/screenshots/screenshot_manage_scan_device.png" title="Safe Queue management">
-</th>
-</tbody>
-</table>
+The Safe Queue System has several options that allow mulitiple people to manage a Safe Queue:
+<p>
+&emsp;&emsp;a) Mirroring. This allows multiple devices to be kept in sync as the line is managed, so that every change in the queue is "mirrored" to multiple devices and multiple employees can manage the line (e.g. notify a consumer to come in, or scan someone into an entrance).
+</p>
+<p>
+&emsp;&emsp;b) Monitoring. This allows multiple devices to be kept in sync as the line is managed, though the devices "monitoring" cannot perform management functions.
 </p>
 
 ## License
