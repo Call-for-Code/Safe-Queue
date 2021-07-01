@@ -13,8 +13,6 @@
 2. [The idea](#the-idea)
 3. [How it works](#how-it-works)
 4. [Use Cases](#use-cases)
-5. [Production Release](#production-release)
-6. [Analytics](#analytics)
 
 
 ## Overview
@@ -61,18 +59,18 @@ Furthermore, reservation systems are hard to use, including sign-ups, emails, ca
 
 <b>SAFE QUEUE IS A COMPLETELY DIFFERENT IDEA THAN A RESERVATION SYSTEM</b>. It does create virtual lines ("safe queues") but it directly solves the on-demand nature that consumers want as normal for shopping. It does so with a unique combination of technologies that result in queuing that is simple and safe in COVID-19 times, both for consumers and employees.  It eliminates the problems characterized by the lines in the pictures above.
 
-Safe Queue is an amazingly easy to use App that for both the business (or polling place) and the consumer.   There is no sign up required for consumers or for businesses, so it can be used immediately upon download. Absolutely no personal information is required, and consumers can be in line at a business within seconds of downloading the app to their devices.   Consumers use the app to join "safe queues" and businesses use the app to manage entry into their business.   A business can have as many safe queues as they want, managing each independently.
+Safe Queue is an amazingly easy to use web-app that for both the business (or polling place) and the consumer. It requires no downloads or registration and is completely self-service for businesses. Absolutely no personal information is required, and consumers can be in line at a business within seconds.   Consumers use the web-app to join "safe queues" and businesses use the web-app to manage entry into their business. A business can have as many safe queues as they want, managing each independently.
 
 <p align="center">
 <img src="./images/screenshots/screenshot_logo_device.png" width="25%" title="Safe Queue Home screen">
 </p>
 
-Safe Queue is realized as a mobile app with cloud services (including computing, middleware, databases, push notifications, geolocation, geocoding). The mobile app is implemented in react-native and all cloud services have been tested in the IBM Cloud.  <b>Safe Queue was developed from the Community starter kit supplied by IBM as part of the 2020 Call For Code Global Challenge to take on COVID-19.</b>
+Safe Queue is realized as a web-based app (at a known URL) with cloud services (including computing, middleware, databases, notifications, geolocation, geocoding). The web-app is implemented in react-js and all cloud services have been deployed in the IBM Cloud.  <b>Safe Queue was developed from the Community starter kit supplied by IBM as part of the 2020 Call For Code Global Challenge to take on COVID-19.</b>
 
 
 ## How it works
 
-<b>The primary element of Safe Queue is GPS location.</b>  The app uses your GPS location as a condition for entering the 'safe queue' of a business.  A consumer can enter a line for a business if he is located within 1000 feet of the business.  It doesn't matter who you are, as long as you are nearby and stay nearby. Typically you will be waiting in your car where you are 'safe' rather than standing outside in a line with lots of other people, subject to spread of the virus, the weather (hot or cold) and ability to stand for a long time. If you drive away from the business, you are removed from the line automatically by the App.  The app provides directions to businesses and clearly shows when you can get in line at a business (i.e. you are close enough to it)
+<b>The primary element of Safe Queue is GPS location.</b>  The web-app uses your GPS location as a condition for entering the 'safe queue' of a business.  A consumer can enter a line for a business if he is located within 1000 feet of the business.  It doesn't matter who you are, as long as you are nearby and stay nearby. Typically you will be waiting in your car where you are 'safe' rather than standing outside in a line with lots of other people, subject to spread of the virus, the weather (hot or cold) and ability to stand for a long time. If you drive away from the business, you are removed from the line automatically by the App.  The app provides directions to businesses and clearly shows when you can get in line at a business (i.e. you are close enough to it)
 
 A business creates a 'safe queue' for itself using the same App. The manager (or employee) creates the queue, where the GPS location of that person becomes the location used for the business.  This becomes published where consumers see it in their Apps (based upon their location).  The app reverse-geocodes the location into an address so the business does not need to enter (though it can edit it).  Once created, an employee of the business controls the actual entry of people with a few simple buttons. Anyone who shows up long before opening hours can get in line, provided they stay close to the business!  Note that a business can create several safe queues, perhaps segregating them by entrance location (e.g. contractor vs. consumer), by age (e.g. over 65 line), or by type (e.g. Instacart shoppers vs individuals)
 
@@ -87,7 +85,7 @@ See the screenshots and detailed use cases below. There is also a <b>the video d
 
 ## Use Cases
 
-<b>1. A CONSUMER GOES TO A STORE</b>: A consumer wants to go to Costco for a number of items.  He opens up Safe Queue, taps on 'CUSTOMER' and sees his Costco has a 'safe queue' (and also sees the number of people in line). Great, he isn't close to the store, so can't get in line yet. He drives to the Costco and when he gets close enough (1000 feet) to the store, his app turns green for Costco. He taps on it (it is an obvious large green area), confirms, and he's entered into the line. He parks his car and waits there, safe and sound.
+<b>1. A CONSUMER GOES TO A STORE</b>: A consumer wants to go to Costco for a number of items.  He oe Safe Queue, taps on 'CUSTOMER' and sees his Costco has a 'safe queue' (and also sees the number of people in line). Great, he isn't close to the store, so can't get in line yet. He drives to the Costco and when he gets close enough (1000 feet) to the store, his app turns green for Costco. He taps on it (it is an obvious large green area), confirms, and he's entered into the line. He parks his car and waits there, safe and sound.
 <p align="center">
 <table style="width:100%; border:0;">
 <colgroup>
@@ -154,43 +152,6 @@ Scanning the QR-Code, the app verifies he is next in safe queue, which removes h
 </tbody>
 </table>
 </p>
-
-## Production Release
-
-#### Safe Queue is intended to be deployed right now!
-Safe Queue is a functional prototype for iOS devices (via react-native) using the IBM Cloud and can be deployed worldwide with small effort per the estimated work below.</b>
-
-The following are needed for widespread production deployment:
-
-1. Required features to be developed
-- add push notifications for Android
-- add EULA and privacy policy
-- add beta-test code support (to support explicit enabling of beta test businesses)
-
-2. Optional features to be developed
-- (optional) complete the turn-by-turn driving directions.
-
-3. Production Cloud Instantiation
-- create necessary account at IBM Cloud and billing
-- configure for increased scalability
-
-4. App deployment to app stores
-- create necessary accounts at Apple/Google/etc.
-- submit production app to Apple for approval
-- submit production app to Google and optionally other app stores
-
-## Analytics
-The intent of Save Queue today is to solve an immediate problem immediately. However, it provides the means to collect a large amount of anonymous data about consumers, stores, travel and lines. This is a unique data set unique to these COVID-19 times because these kind of lines have never existed before.
-
-Note that the Scan Queue app delivers a valuable service to consumers, so is the only reason why this data would become available for analysis. Should that data be kept in the cloud (today it is not kept longer than needed), one might be able to understand some of the following:
-* how many people are really affected
-* how long people wait in lines (which could be useful to users)
-* how different regions are effected differently
-* when people shop
-* what stores people find necessary
-* when people abandon lines
-* where stores need to be located to ease
-* much more...
 
 ## License
 Portions of this software originated from the Community starter kit supplied by IBM as part of the 2020 Call For Code Global Challenge to take on COVID-19, which include the following notice:
