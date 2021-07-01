@@ -1,0 +1,32 @@
+{
+  "name": "safe-queue-server",
+  "version": "0.7.1",
+  "description": "Safe Queue social distancing for businesses",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@cloudant/cloudant": "^4.2.4",
+    "apn": "^2.2.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.12.1",
+    "ibm-watson": "^5.4.0",
+    "twilio": "^3.48.1",
+    "redis": "^3.0.2",
+    "ws": "^7.3.0"
+  },
+  "homepage": "https://github.com/TBD#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TBD.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TBD/issues"
+  },
+  "license": "Apache-2.0"
+}
