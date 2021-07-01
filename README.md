@@ -62,7 +62,7 @@ Furthermore, reservation systems are hard to use, including sign-ups, emails, ca
 Safe Queue is an amazingly easy to use mobile web-app that for both the business (or polling place) and the consumer. It requires no downloads or registration and is completely self-service for businesses. Absolutely no personal information is required, and consumers can be in line at a business within seconds.   Consumers use the web-app to join "safe queues" and businesses use the web-app to manage entry into their business. A business can have as many safe queues as they want, managing each independently.
 
 <p align="center">
-<img src="./images/screenshots/screenshot_logo_device.png" width="25%" title="Safe Queue Home screen">
+<img src="./images/landing4.png" width="75%" title="Safe Queue Home screen">
 </p>
 
 Safe Queue is realized as a mobile web-app (at a known URL) supported by cloud services (including computing, middleware, databases, notifications, geolocation, geocoding). The mobile web-app is implemented in react-js and all cloud services have been deployed in the IBM Cloud. <b>Safe Queue was developed from the Community starter kit supplied by IBM as part of the 2020 Call For Code Global Challenge to take on COVID-19.</b>
