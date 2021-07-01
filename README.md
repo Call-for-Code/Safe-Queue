@@ -83,7 +83,7 @@ A business creates a 'safe queue' for itself using the same web-app. The manager
 <b>The last key element of Safe Queue is Voice Alerts.</b> Consumers get typical notifications purely as text, but Safe Queue adds brief audio to them.  Instead of a ding, they hear a short message like: "This is Safe Queue, you are next in line". These messages can be customized by a business (e.g. "Your Pizza is ready!") and Safe Queue uses the IBM Watson Text-To-Speech sevice to generate that audio. Using audio alerts, consumers do not have to watch their phones continuously and can do other things while waiting. The voice alert is much more user friendly.
 
 See the screenshots and detailed use cases below. There is also a <b>the video demonstrating Safe Queue in action </b>
-<a href="https://www.enclayvegroup.com/sq/safequeue_2/pages/assets/img/SafeQueueGroceryTrip.m4v">here</a>.
+<a href="https://www.enclayvegroup.com/sq/safequeue_2/pages/assets/img/SafeQueueGroceryTrip.m4v" target=_blank>here</a>.
 
 ## Use Cases
 
