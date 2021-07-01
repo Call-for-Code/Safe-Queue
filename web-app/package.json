@@ -1,0 +1,71 @@
+{
+  "name": "Safe-Queue-Web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.10.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "AsyncStorage": "^0.1.5",
+    "dotenv": "^10.0.0",
+    "eth-qr-scanner": "^1.1.0",
+    "express": "^4.17.1",
+    "filepond": "^4.17.1",
+    "filepond-plugin-image-crop": "^2.0.4",
+    "filepond-plugin-image-edit": "^1.6.1",
+    "filepond-plugin-image-exif-orientation": "^1.0.9",
+    "filepond-plugin-image-preview": "^4.6.4",
+    "filepond-plugin-image-resize": "^2.0.7",
+    "filepond-plugin-image-transform": "^3.7.3",
+    "firebase": "^7.17.1",
+    "flatlist-react": "^1.4.2",
+    "material-ui-phone-number": "^2.2.6",
+    "moment": "^2.26.0",
+    "moment-timezone": "^0.5.31",
+    "onsenui": "^2.10.10",
+    "qrcode.react": "^1.0.0",
+    "react": "^16.13.1",
+    "react-device-detect": "^1.13.1",
+    "react-dom": "^16.13.1",
+    "react-filepond": "^7.0.1",
+    "react-image-crop": "^8.6.4",
+    "react-moment": "^0.9.7",
+    "react-native-web": "^0.12.3",
+    "react-onsenui": "^1.11.2",
+    "react-page-visibility": "^6.2.0",
+    "react-qr-reader": "^2.2.1",
+    "react-qr-reader2": "^1.1.0",
+    "react-qr-scanner": "0.0.9",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-spinkit": "^3.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "start-web": "react-scripts start",
+    "build-web": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build-prd": "cross-env GENERATE_SOURCEMAP=false react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  }
+}
