@@ -87,32 +87,10 @@ See the screenshots and detailed use cases below. There is also a <b>the video d
 
 ## Use Cases
 
-<b>1. A CONSUMER WANTS TO SHOP AT A STORE</b>: A consumer wants to go to Costco for a number of items.  He goes to the Costco Safe Queue web URL (which could be embedded int the Costco web site, or from a social media post). He will see the number of people in line and options for joining the line. Great, but he isn't close enough to the store, so can't get in line yet. He then drives to the Costco and when he gets close enough (e.g. 1000 feet), the web-app automatically enteres him into the Costco line. He parks his car and waits there, safe and sound.
+<b>1. A CONSUMER WANTS TO SHOP AT A STORE</b>: A consumer wants to go to a store for a number of items.  He goes to the store's Safe Queue web URL (which could be embedded in it's web site, or from a social media post). He will see the number of people in line and options for joining the line. Great, but he isn't close enough to the store, so can't get in line yet. He then drives there and when he gets close enough (e.g. 1000 feet), the web-app automatically enteres him into the Costco line. He parks his car and waits there, safe and sound.
 <p align="center">
-<table style="width:100%; border:0;">
-<colgroup>
-      <col span="1" style="width: 20%;">
-      <col span="1" style="width: 30%;">
-      <col span="1" style="width: 20%;">
-      <col span="1" style="width: 30%;">
-   </colgroup>
-   <tbody>
-<tr>
-<th>
-Tap on 'CUSTOMER'. A list of published safe queues ordered by distance  appears. One of more are green, indicating you are close enough to join that safe queue.
-</th>
-<th>
-<img src="./images/screenshots/screenshot_selectqueue_device.png"  title="Safe Queue lines available">
-</th>
-<th>
-Tap the a green  entry, which confirms you want to join the safe queue and enter an optional nickname. 'frank' was typed in this case.
-</th>
-<th>
-<img src="./images/screenshots/screenshot_inqueue_device.png"  title="Safe Queue waiting">
-</th>
-</tr>
-</trbody>
-</table>
+<img src="./images/safequeuesnearyou.png" width="80%" title="Safe Queue near you">
+<img src="./images/safequeueinline.png" width="80%" title="Safe Queue inline">
 </p>
 
 As his turn in line approaches, he receives  notifications with audio alerts starting at fourth in line and including:  "this is Safe Queue, you are now second in line" so he can get ready,  and then finally: "this is safe queue, you can go in now.".  
