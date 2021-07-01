@@ -33,7 +33,7 @@ You'll then need to enable it for IAM and copy the key.
 
 See IBM documentation.
 
-### Create an `.env` file from `dotenv-template`
+### Create a `.env` file from `dotenv-template`
 
 There are several variables to be set, as described in the template. These include CLoudant, Redis and Twilio.
 
