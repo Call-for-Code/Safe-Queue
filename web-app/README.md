@@ -1,4 +1,4 @@
-# Web Client documentation
+# Safe Queue Mobile Web-App
 
 ## Contents
 
