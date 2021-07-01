@@ -121,8 +121,10 @@ He leaves his car and goes in, shows his QR Code to the employee who scans it (a
 
 <b>2. A CONSUMER GOES TO A STORE</b>: A consumer simply drives to a store. When he arrives, he sees a printed sign with a QR Code nearby. Scanning the QR Code will open his browser to the Safe Queue for that store. He then joins the Safe Queue and parks and waits to be notified to go in. 
 
-<b>3. A CONSUMER WALK UP TO A STORE</b>: A consumer is in a mall with lots of stores. Outside of some stores, there is printed sign with a QR Code. Scanning the QR Code will open his browser to the Safe Queue for that store. He then joins the Safe Queue and waits somewhere safe nearby to be notified to go in. 
-
+<b>3. A CONSUMER WALKS BY A STORE</b>: A consumer is in a mall with lots of stores. Outside of some stores, there is printed sign with a QR Code. Scanning the QR Code will open his browser to the Safe Queue for that store. He then joins the Safe Queue and waits somewhere safe nearby to be notified to go in. 
+<p align="center">
+<img src="./images/qr_example.jpg" width="75%" title="Safe Queue Printed Example">
+</p>
 <b>4. A BUSINESS CREATES A SAFE QUEUE</b>:  A manager (or employee) of a business opens up the Safe Queue App, taps on "MANAGER" and sees an empty list. He taps on Add and enters the business name, an optional logo, and an address (though this is pre-populated by the App from the GPS location).  He then taps on Save, which publishes this for consumers to find (as per CONSUMER use case above).
 <p align="center">
 <img src="./images/screenshots/screenshot_manage_create_device.png" width="25%" title="Safe Queue Home screen">
