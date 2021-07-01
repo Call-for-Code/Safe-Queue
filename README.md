@@ -87,7 +87,7 @@ See the screenshots and detailed use cases below. There is also a <b>the video d
 
 ## Use Cases
 
-<b>1. A CONSUMER GOES TO A STORE</b>: A consumer wants to go to Costco for a number of items.  He oe Safe Queue, taps on 'CUSTOMER' and sees his Costco has a 'safe queue' (and also sees the number of people in line). Great, he isn't close to the store, so can't get in line yet. He drives to the Costco and when he gets close enough (1000 feet) to the store, his app turns green for Costco. He taps on it (it is an obvious large green area), confirms, and he's entered into the line. He parks his car and waits there, safe and sound.
+<b>1. A CONSUMER GOES TO A STORE</b>: A consumer wants to go to Costco for a number of items.  He goes to the Costco Safe Queue web URL (which could be embedded int the Costco web-site, or emailed or from a social media post). He will see the number of people in line and options for joining the line. Great, but he isn't close enough to the store, so can't get in line yet. He then drives to the Costco and when he gets close enough (e.g. 1000 feet), the web-app automatically enteres him into the Costco line. He parks his car and waits there, safe and sound.
 <p align="center">
 <table style="width:100%; border:0;">
 <colgroup>
