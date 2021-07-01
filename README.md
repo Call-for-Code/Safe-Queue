@@ -87,7 +87,7 @@ See the screenshots and detailed use cases below. There is also a <b>the video d
 
 ## Use Cases
 
-<b>1. A CONSUMER GOES TO A STORE</b>: A consumer wants to go to Costco for a number of items.  He goes to the Costco Safe Queue web URL (which could be embedded int the Costco web-site, or emailed or from a social media post). He will see the number of people in line and options for joining the line. Great, but he isn't close enough to the store, so can't get in line yet. He then drives to the Costco and when he gets close enough (e.g. 1000 feet), the web-app automatically enteres him into the Costco line. He parks his car and waits there, safe and sound.
+<b>1. A CONSUMER WANTS TO SHOP AT A STORE</b>: A consumer wants to go to Costco for a number of items.  He goes to the Costco Safe Queue web URL (which could be embedded int the Costco web site, or from a social media post). He will see the number of people in line and options for joining the line. Great, but he isn't close enough to the store, so can't get in line yet. He then drives to the Costco and when he gets close enough (e.g. 1000 feet), the web-app automatically enteres him into the Costco line. He parks his car and waits there, safe and sound.
 <p align="center">
 <table style="width:100%; border:0;">
 <colgroup>
@@ -115,11 +115,13 @@ Tap the a green  entry, which confirms you want to join the safe queue and enter
 </table>
 </p>
 
-As his turn in line approaches, he receives push notifications with audio alerts starting at fourth in line and including:  "this is Safe Queue, you are now second in line" so he can get ready,  and then finally: "this is safe queue, you can go in now.".  
+As his turn in line approaches, he receives  notifications with audio alerts starting at fourth in line and including:  "this is Safe Queue, you are now second in line" so he can get ready,  and then finally: "this is safe queue, you can go in now.".  
 
 He leaves his car and goes in, shows his QR Code to the employee who scans it (also using the App) which confirms he is the next one in line.  The successful scan then removes him from the line and notifications go out to everyone else waiting.
 
-<b>2. A BUSINESS CREATES A SAFE QUEUE</b>:  A manager (or employee) of a business opens up the Safe Queue App, taps on "MANAGER" and sees an empty list. He taps on Add and enters the business name, an optional logo, and an address (though this is pre-populated by the App from the GPS location).  He then taps on Save, which publishes this for consumers to find (as per CONSUMER use case above).
+<b>2. A CONSUMER GOES TO A STORE</b>: A consumer simply drives to a store. When he arrives, he sees a printed sign with a QR Code nearby. Scanning the QR Code will open his browser to the Safe Queue for that store. He then joins the Safe Queue and parks and waits to be notified to go in. 
+
+<b>3. A BUSINESS CREATES A SAFE QUEUE</b>:  A manager (or employee) of a business opens up the Safe Queue App, taps on "MANAGER" and sees an empty list. He taps on Add and enters the business name, an optional logo, and an address (though this is pre-populated by the App from the GPS location).  He then taps on Save, which publishes this for consumers to find (as per CONSUMER use case above).
 <p align="center">
 <img src="./images/screenshots/screenshot_manage_create_device.png" width="25%" title="Safe Queue Home screen">
 </p>
@@ -127,7 +129,7 @@ He then see a list, which includes what he created. He taps on it to manage it (
 Note that a business can have as many safe queues at their location as they want, each managed by one or more employees.
 
 
-<b>3. A BUSINESS MANAGES ENTRY TO A STORE</b>:
+<b>4. A BUSINESS MANAGES ENTRY TO A STORE</b>:
 After having create a safe queue (see use case above), an employee at an entrance to the store uses the app to control entry.
 <p align="center">
 <table style="width:100%; border:0;">
