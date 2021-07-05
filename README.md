@@ -48,24 +48,26 @@ Of course, physical lines can be replaced by virtual lines, where people do not 
 
 <b>We call each virtual line a "Safe Queue"</b>.
 
-There are already many "reservation" systems available today, however these do not address the ad-hoc nature of shopping where the time taken by a customer in a store varies widely and the time they go is not planned. People want to go to stores when they want to go, and spend the time they need. As such, reservation systems cannot handle the on-demand nature of shopping (and voting) that people see as "normal". This kind of behavior cannot be reserved effectively and businesses cannot schedule such behavior effectively. In these COVID-19 times, restoring the ability to just go to the store brings back a sense of normalcy, and a safe queue can help do so while preventing spread of the disease.
-
-Furthermore, reservation systems are hard to use, including sign-ups, emails, calendars, time-slots, personal information, and a promise to show up in the future, which must be managed by businesses.  Stores (e.g. Costco) will find it impossible to use reservation systems for on-demand shopping; Polling places will find it impossible to create reservations for voting - voting is a right, and missing your reservation isn't a viable option for democracy.
-
 <b>SAFE QUEUE IS COMPLETELY DIFFERENT FROM A RESERVATION SYSTEM.</b>
+
+There are already many "reservation" systems available today, however these do not address the ad-hoc nature of shopping where the time taken by a customer in a store varies widely and when they want to go is not planned. People want to go to stores when they want to go, and spend the time they need. As such, reservation systems cannot handle the on-demand nature of shopping (and voting) that people see as "normal". This kind of behavior cannot be reserved effectively and businesses cannot schedule such behavior effectively. In these COVID-19 times, restoring the ability to just go to the store brings back a sense of normalcy, and a safe queue can help do so while preventing spread of the disease.
+
+Furthermore, reservation systems are hard to use, including sign-ups, emails, calendars, time-slots, personal information, and a promise to show up in the future, which must be managed by businesses.  Stores will find it impossible to use reservation systems for on-demand shopping; Polling places will find it impossible to create reservations for voting - voting is a right, and missing your reservation isn't a viable option for democracy.
 
 
 ## The idea
 
-<b>SAFE QUEUE IS A COMPLETELY DIFFERENT IDEA THAN A RESERVATION SYSTEM</b>. It does create virtual lines ("safe queues") but it directly solves the on-demand nature that consumers want as normal for shopping. It does so with a unique combination of technologies that result in queuing that is simple and safe in COVID-19 times, both for consumers and employees.  It eliminates the problems characterized by the lines in the pictures above.
+<b>SAFE QUEUE IS COMPLETELY DIFFERENT FROM A RESERVATION SYSTEM.</b>
 
-Safe Queue is an amazingly easy to use mobile web-app that for both the business (or polling place) and the consumer. It requires no downloads or registration and is completely self-service for businesses. Absolutely no personal information is required, and consumers can be in line at a business within seconds.   Consumers use the web-app to join "safe queues" and businesses use the web-app to manage entry into their business. A business can have as many safe queues as they want, managing each independently.
+Safe Queue does create virtual lines ("safe queues") but it directly solves the on-demand nature that consumers want as normal for shopping. You don't have to make a reservation, you just have to show up! It does so with a unique combination of technologies that result in queuing that is simple and safe in COVID-19 times, both for consumers and employees.  It eliminates the problems characterized by the lines in the pictures above.
+
+Safe Queue is an amazingly easy to use mobile web-app that for both the business (or polling place) and the consumer. It requires no downloads or registration and is completely self-service for businesses. Absolutely no personal information is required, and consumers can be in line at a business within seconds.   Consumers use the web-app to join "safe queues" and businesses use the same mobile web-app to manage entry into their business. A business can have as many safe queues as they want, managing each independently.
 
 <p align="center">
 <img src="./images/landing4.png" width="75%" title="Safe Queue Home screen">
 </p>
 
-Safe Queue is realized as a mobile web-app (at a known URL) supported by cloud services (including computing, middleware, databases, notifications, geolocation, geocoding). The mobile web-app is implemented in react-js and all cloud services have been deployed in the IBM Cloud. <b>Safe Queue was developed from the Community starter kit supplied by IBM as part of the 2020 Call For Code Global Challenge to take on COVID-19.</b>
+Safe Queue is realized as a mobile web-app (at a known URL, or embedded into any web site) supported by cloud services (including computing, middleware, databases, notifications, geolocation, geocoding). The mobile web-app is implemented in react-js and all cloud services have been deployed in the IBM Cloud. <b>Safe Queue was developed from the Community starter kit supplied by IBM as part of the 2020 Call For Code Global Challenge to take on COVID-19.</b>
 
 
 ## How it works
